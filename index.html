@@ -12,13 +12,23 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="main-title">Find the movie</h1>
-        <div class="form-group search-block">
-          <input type="text" class="search-input form-control">
+        <div class="list-wrapper">
+          <h1 class="main-title">Find the movie</h1>
+          <div class="form-group search-block">
+            <input type="text" class="search-input form-control">
+            <ul class="filters">
+              <li><a href="" data-filter="raiting-max">Raiting max</a></li>
+              <li><a href="" data-filter="raiting-min">Raiting min</a></li>
+              <li><a href="" data-filter="date-new">New</a></li>
+              <li><a href="" data-filter="date-old">Old</a></li>
+            </ul>   
+          </div>
+          
+          <div class="container movies"></div>
         </div>
-        
-        <div class="container movies">
-    
+
+        <div class="movie-wrapper">
+          
         </div>
       </div>
     </div>
